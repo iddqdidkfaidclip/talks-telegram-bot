@@ -1,1 +1,1 @@
-worker: java -jar out/artifacts/Talks_jar/Talks.jar
+worker: java -jar out/artifacts/Talks_main_jar/Talks.main.jar

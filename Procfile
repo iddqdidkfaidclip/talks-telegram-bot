@@ -1,1 +1,1 @@
-worker: java -jar build/libs/Talks-1.0-SNAPSHOT.jar
+worker: java -jar out/artifacts/Talks_jar/Talks.jar

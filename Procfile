@@ -1,0 +1,1 @@
+worker: java -jar build/libs/Talks-1.0-SNAPSHOT.jar

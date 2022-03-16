@@ -12,8 +12,8 @@ class DatabaseManager {
     private val themesDatabase: Database
 
     init {
-        val jdbcUrl = System.getenv()["JDBC_DATABASE_URL"]
-        themesDatabase = Database.connect(jdbcUrl!!)
+        val jdbcUrl = System.getenv()["JDBC_DATABASE_URL"]!!
+        themesDatabase = Database.connect(jdbcUrl)
     }
 
     fun getAllThemes(userId: Long): List<ThemeEntity> {
